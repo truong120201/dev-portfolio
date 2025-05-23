@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
@@ -87,22 +86,6 @@ class App extends Component {
           <div
             onClick={() =>
               this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
                 window.$secondaryLanguage,
                 window.$primaryLanguageIconId
               )
@@ -110,20 +93,32 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              className="iconify language-icon mr-5"
+              data-icon="twemoji-flag-for-flag-vietnam"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
+            ></span>
+          </div>
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$primaryLanguage,
+                window.$secondaryLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-inline="false"
+              id={window.$primaryLanguageIconId}
             ></span>
           </div>
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}

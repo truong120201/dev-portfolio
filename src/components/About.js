@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import angularIcon from "@iconify/icons-logos/react";
+import reactIcon from "@iconify/icons-logos/nestjs";
+import vueIcon from "@iconify/icons-logos/aws";
 
 class About extends Component {
   render() {
@@ -26,7 +26,7 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="300px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />

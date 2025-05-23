@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Harry Tran",
+      "titles": [ "Fullstack Developer", "Passionate Developer", "Dev Team lead", "AWS infrastructure" ],
       "social": [
         {
           "name": "github",
@@ -14,7 +14,7 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.jpeg"
     },
     "skills": {
       "icons": [
@@ -29,8 +29,18 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "Tailwind CSS",
+          "class": "devicon-tailwindcss-original",
+          "level": "95"
+        },
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-original",
+          "level": "80"
+        },
+        {
+          "name": "NextJS",
+          "class": "devicon-nextjs-plain",
           "level": "80"
         },
         {
@@ -44,24 +54,39 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "ExpressJS",
+          "class": "devicon-express-original-wordmark",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "NestJS",
+          "class": "devicon-nestjs-original",
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "Docker",
+          "class": "devicon-docker-plain",
           "level": "65"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "70"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "75"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "70"
         }
       ]
     }
